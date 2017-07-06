@@ -1,0 +1,62 @@
+main: com.elderrealm.main.ElderRealmGuilds
+version: 1.0
+name: ElderRealmGuilds
+author: Tricks
+
+commands:
+  guildhelp:
+    description: Shows all Guild Commands
+    aliases: [ghelp, g, guilds, guild]
+
+  guildcreate:
+    description: Creates a guild!
+    aliases: [gcreate]
+
+  guilddisband:
+    description: Disband your Guild
+    aliases: [gdisband]
+
+  guildinvite:
+    description: Invite a player to your guild
+    aliases: [ginvite, gadd]
+    
+  guildaccept:
+    description: Accept a Guild invite
+    aliases: [gaccept, gjoin]
+  
+  guilddeny:
+    description: Declinea Guild invite
+    aliases: [gdeny, gdecline]
+
+  guildkick:
+    description: Kick a player from your guild
+    aliases: [gkick]
+  
+  guildleave:
+    description: Leave the Guild you are in
+    aliases: [gleave]
+
+  guildinformation:
+    description: Leave the Guild you are in
+    aliases: [ginfo, gshow]
+
+  guilddeposit:
+    description: Deposit money to your Guilds bank
+    aliases: [gdeposit]
+
+  guildwithdraw:
+    description: Withdraw money from your Guilds bank
+    aliases: [gwithdraw]
+  
+  guildsetbase:
+    description: Set your Guilds Base
+    aliases: [gsetbase]
+
+  guildbase:
+    description: Teleport to your Guilds base
+    aliases: [gbase]
+
+  guildvip:
+    description: Set a Guild to VIP
+    aliases: [gvip]
+
